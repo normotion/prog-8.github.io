@@ -432,7 +432,14 @@ body{
 	
 	} 
 
-@media only screen and (max-width:1116px){} 
+@media only screen and (max-width:350px){
+	.header-row a{
+		font-size: 60%;
+	}
+	.nav-low a{
+		font-size: 110%;
+	}
+} 
 
 
 
