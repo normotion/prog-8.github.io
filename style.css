@@ -440,7 +440,7 @@ body{
 		font-size: 110%;
 	}
 	#scroll{
-		height: 190vw;
+		height: 680px;
 	}
 	.scroll-bar{
 		width: 8%;
@@ -449,17 +449,17 @@ body{
 		width: 30%;
 	}
 	.whatis{
-		width: 80vw;
+		width: 300px;
 	}
 	#whatis-title p{
-		font-size: 5vw;
+		font-size: 15px;
 	}
 	#Explanation{
 		width: 80%;
 		height: 200vw;
 	}
 	#Explanation p{
-		font-size: 4vw;
+		font-size: 16px;
 		margin-bottom: 10%;
 	}
 	.text02{
