@@ -233,7 +233,7 @@ nav ul li:hover{
 	color: #8AA3D2;
 	letter-spacing: 0.07em;
 }
-#Explanation span {
+.border-line {
     background:linear-gradient(transparent 30%, #fff 30%);
 }
 
@@ -242,6 +242,10 @@ text-decoration:none;
 color: #8AA3D2;
 }
 
+.nav-low{
+		display: none;
+	}
+	
 li a {
 text-decoration:none;
 color: black;
@@ -294,7 +298,7 @@ nav li{
 	font-feature-settings: "palt";
 　　-webkit-font-feature-settings: "palt";
 　　-moz-font-feature-settings: "palt";	
-	color: #252525;
+	
 }
 	
 #header{
@@ -312,7 +316,6 @@ nav li{
   font-family: objektiv-mk1, sans-serif;
   font-weight: 300;
   font-style: normal;
-  color: #252525;	
 　　font-feature-settings: "palt";
 　　-webkit-font-feature-settings: "palt";
 　　-moz-font-feature-settings: "palt";	
@@ -378,6 +381,28 @@ body{
 	
 	} 
 
+@media only screen and (max-width:1116px){
+	.header-row{
+		position: fixed;
+		z-index: 20;
+		left: 3%;
+	}
+	.nav-top{
+		display: none;
+	}
+	.nav-low{
+		right: 0%;
+		bottom: 5%;
+		width: 200px;
+		display: block;
+		position: fixed;
+		z-index: 20;
+	}
+	.nav-low a{
+		color: #8AA3D2;
+		margin-bottom: 30%;
+	}
+} 
 
 
 
