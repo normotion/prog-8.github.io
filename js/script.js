@@ -27,35 +27,7 @@ function drop(obj)
 //screen full 
 
 $(function () {
-			$('#supported').text('Supported/allowed: ' + !!screenfull.isEnabled);
-
-			if (!screenfull.isEnabled) {
-				return false;
-			}
-
-			$('#request').click(function () {
-				screenfull.request($('#container')[0]).then(function () {
-					console.log('Browser entered fullscreen mode')
-				})
-				// Does not require jQuery. Can be used like this too:
-				// screenfull.request(document.getElementById('container'));
-			});
-
-			$('#exit').dblclick(function () {
-				screenfull.exit().then(function () {
-					console.log('Browser exited fullscreen mode')
-				});
-			});
-
-			$('#toggle').click(function () {
-				screenfull.toggle($('#container')[0]).then(function () {
-					console.log('Fullscreen mode: ' + (screenfull.isFullscreen ? 'enabled' : 'disabled'))
-				});
-			});
-
-			$('#request2').click(function () {
-				screenfull.request();
-			});
+			
 
 			$('#canvas').dblclick(function () {
 				screenfull.toggle(this);
