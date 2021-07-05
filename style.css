@@ -432,7 +432,7 @@ body{
 	
 	} 
 
-@media only screen and (max-width:350px){
+@media only screen and (max-width:450px){
 	.header-row a{
 		font-size: 60%;
 	}
@@ -440,7 +440,7 @@ body{
 		font-size: 110%;
 	}
 	#scroll{
-		height: 140vw;
+		height: 190vw;
 	}
 	.scroll-bar{
 		width: 8%;
