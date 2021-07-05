@@ -439,6 +439,35 @@ body{
 	.nav-low a{
 		font-size: 110%;
 	}
+	#scroll{
+		height: 140vw;
+	}
+	.scroll-bar{
+		width: 8%;
+	}
+	.circle{
+		width: 30%;
+	}
+	.whatis{
+		width: 80vw;
+	}
+	#whatis-title p{
+		font-size: 5vw;
+	}
+	#Explanation{
+		width: 80%;
+		height: 200vw;
+	}
+	#Explanation p{
+		font-size: 4vw;
+		margin-bottom: 10%;
+	}
+	.text02{
+	margin-top: 85%;
+	width: 100%;
+	position: absolute;	
+   }
+	
 } 
 
 
