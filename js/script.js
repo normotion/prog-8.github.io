@@ -1,4 +1,12 @@
 // JavaScript Document
+
+//色の切り替え
+$(function(){
+  $("#img01").click(function(){
+    $("video").attr("src","video/rotation_circle_blue.mp4");
+    $("video").attr("src","video/rotation_circle_green.mp4");
+  });
+});
 	
 //ドラッグ&ドロップで入れ替え部分の記述	
 function dragstart()
