@@ -284,13 +284,6 @@ li a:hover::after {
 	display: block;
 }
 
-
-#scroll{
-	margin-top: 5%;
-	width: 80%;	
-	height: 60rem;
-	}
-
 	
 nav li{
 	list-style: none;

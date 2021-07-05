@@ -1,6 +1,10 @@
 @charset "UTF-8";
 /* CSS Document */
-
+#scroll{
+	margin-top: 5%;
+	width: 80%;	
+	height: 65vw;
+	}
 .scroll-bar{
 	position: absolute;
 	max-width:30px;
@@ -20,10 +24,10 @@
 	margin-bottom: 0px;
 }
 
-.circlre{
+.circle{
 	position: absolute;
 	max-width: 120px;
-	width: 20%;
+	width: 18%;
     left: 0;
 	right: 0;
 	top: 0;
