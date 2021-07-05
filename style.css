@@ -329,6 +329,7 @@ body{
   flex-wrap: wrap;
   height: auto;
   width: 80%;
+  max-width: 800px;
   margin-left: auto;
   margin-right: auto;
   
@@ -340,12 +341,16 @@ body{
  display: block;
  width: 25%;
  height: 25%;
+ max-width: 200px;
+ max-height: 200px;
 }
 
 #canvas img {
  display: block;
- width: 240px;
- height: 240px;
+ width: 25%;
+ height: 25%;
+ max-width: 200px;
+ max-height: 200px;
 }
 	
 .footer-navi{
