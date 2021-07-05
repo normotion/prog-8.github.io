@@ -1,0 +1,55 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*フェードイン*/
+.fadeIn_right {
+  opacity: 0;
+  transform: translate(17%, 0);/*開始位置*/
+  transition: 3s;/*秒数*/
+}
+.fadeIn_right.is-show{
+  transform: translate(0, 0);
+  opacity: 1;
+}
+
+.fadeIn_right_slow {
+  opacity: 0;
+  transform: translate(17%, 0);/*開始位置*/
+  transition: 7s;/*秒数*/
+}
+.fadeIn_right_slow.is-show{
+  transform: translate(0, 0);
+  opacity: 1;
+}
+
+.fadeIn_left {
+  opacity: 0;
+  transform: translate(-17%, 0);/*開始位置*/
+  transition: 3s;/*秒数*/
+}
+.fadeIn_left.is-show {
+  transform: translate(0, 0);
+  opacity: 1;
+}
+.fadeIn_left_slow {
+  opacity: 0;
+  transform: translate(-17%, 0);/*開始位置*/
+  transition: 7s;/*秒数*/
+}
+.fadeIn_left_slow.is-show {
+  transform: translate(0, 0);
+  opacity: 1;
+}
+
+.delay02{
+	transition: 2s, 250ms;
+}
+.delay03{
+	transition: 4s, 250ms;
+}
+.delay04{
+	transition: 6s, 250ms;
+}
+.delay05{
+	transition: 8s, 250ms;
+}

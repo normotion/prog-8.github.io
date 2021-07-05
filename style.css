@@ -1,0 +1,392 @@
+@charset "UTF-8";
+/* CSS Document */
+/*カーソル*/
+/*html,body,a{
+  cursor: none !important;
+}*/
+/*
+.cursor{
+  transform: translate(0,0);
+    pointer-events: none;
+    position: fixed;
+    top: -4px;    /*座標調節（カーソル位置と円の中心を合わせる）*/
+   /* left: -4px;  /* 座標調節（カーソル位置と円の中心を合わせる）*/
+   /* width: 8px;   /*カーソルの直径*/
+   /* height: 8px;  /*カーソルの直径*/
+  /*  background: rgba(0,0,0,0.75);
+    border-radius: 50%;
+    z-index: 999;
+	transition: width.3s, height.3s, top.3s, left.3s,;
+}*/
+/*	
+.cursor .hov_{
+    top: -12px;    /*大きくなった分の座標調節*/
+   /* left: -12px;   /*大きくなった分の座標調節*/
+  /*  width: 32px;   /*カーソルの直径*/
+  /*  height: 32px;  /*カーソルの直径*/
+  /*  background: rgba(200,50,50,0.75);
+	}*/
+	
+/*マウスストーカー*/
+  #stalker {
+    pointer-events: none;
+    position: fixed;
+    top: -10px;     /*/座標調節（カーソル位置と円の中心を合わせる）*/
+    left: -10px;    /*/座標調節（カーソル位置と円の中心を合わせる）*/
+    width: 20px;   /*/マウスストーカーの直径*/
+    height: 20px;  /*/マウスストーカーの直径*/
+    background:#E3EF5D;
+    border-radius: 50%;
+    transition: transform 0.05s, top, 0.2s, left 0.2s, width .5s, height .5s, background-color .5s;
+    transition-timing-function: ease-out;
+    z-index: 990;
+	  
+	opacity: 20%;
+    
+}
+#stalker.hov_{
+      top: -32px;     /*/大きさに合わせて座標調節*/
+      left: -32px;    /*/大きさに合わせて座標調節*/
+      width: 64px;
+      height: 64px;
+      transition: .5s;
+      background: rgba(255, 0, 0, 0.4);
+    }
+
+#wrap{
+	overflow: hidden;
+}
+
+
+/*読み込み画面*/
+/*loading {
+  width: 100%;
+  height: 100%;
+  transition: all 1s;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+}*/
+.spinner {
+  width: 50px;
+  height: 50px;
+  margin: 100px auto;
+  background-color: black;
+  border-radius: 100%;
+  animation: sk-scaleout 1.0s infinite ease-in-out;
+}
+/* Loading Animation */
+@keyframes sk-scaleout {
+  0% {
+    transform: scale(0);
+  } 100% {
+    transform: scale(1.0);
+    opacity: 0;
+  }
+}
+
+/* Hide Loading Block */
+.loaded {
+  opacity: 0;
+  visibility: hidden;
+} 
+
+/*hover透過*/
+#header h1{
+	transition: .3s;
+}
+#header h1:hover{
+	opacity: 0.3;
+}
+nav{
+	width: 100%;
+	height: auto;
+	text-align: right;
+}
+nav ul li{
+	transition: .3s;
+	display: inline-block;
+	font-size: 20px;
+	margin-right: 2rem;
+}
+nav ul li:hover{
+	opacity: 0.3;
+}
+
+
+/*トップに戻るボタン*/
+#page_top{
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  right: 35px;
+  bottom: 30px;
+  background: black;
+  opacity: 0.6;
+  border-radius: 60%;	
+}
+#page_top a{
+  position: relative;
+  display: block;
+  width: 50px;
+  height: 50px;
+  text-decoration: none;	
+}
+#page_top a::before{
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  content: '\f106';
+  font-size: 25px;
+  color: #fff;
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  text-align: center;
+}
+
+
+@media only screen and (max-width:6000px){
+	
+
+	
+	
+
+*{
+	margin: 0;
+	padding: 0;
+}
+	
+	#full_screen_button{
+		width: 90%;
+		text-align: center;
+		padding-top: 2rem;
+	}
+	
+	#full_screen_button p{
+		font-family: 'Raleway', sans-serif;
+        font-size: 28.5px;
+	}
+	
+
+#wrap{
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	flex-direction: column-reverse;
+	
+}
+	
+	.contents-margin{
+		width: 100%;
+		height: 4.5rem;
+		margin-bottom: 6em;
+	}
+
+#Explanation{
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}	
+.text02{
+	margin-top: 25%;
+	width: 100%;
+}
+
+.left_text{
+	text-align: right;
+	color: #8AA3D2;
+	width: 100%;
+}
+
+	
+	
+#Explanation h1{
+	font-family: objektiv-mk1, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+	border-bottom:medium #DA5B5D;
+	text-align: left;
+	font-feature-settings: "palt";	
+	width: 100%;
+	font-size: 50px;
+	color: #8AA3D2;
+}
+
+/*#Explanation h1 a{
+	background: linear-gradient(transparent 70%, yellow 50%);
+}*/
+
+#Explanation img{
+	margin-bottom: 50px;
+}
+
+#Explanation p{
+    font-family: a-otf-gothic-bbb-pr6n,sans-serif;
+    font-weight: 300;
+    font-style: normal;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 20px;
+	font-feature-settings: "palt";	
+	margin-bottom: 3.5rem;
+	color: #8AA3D2;
+	letter-spacing: 0.07em;
+}
+#Explanation span {
+    background:linear-gradient(transparent 30%, #fff 30%);
+}
+
+#header a{
+text-decoration:none;
+color: #8AA3D2;
+}
+
+li a {
+text-decoration:none;
+color: black;
+position: relative;
+display: flex;	
+flex-direction: row;	
+}
+
+li a::after {
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  content: '';
+  width: 100%;
+  height: 2px;
+  background: #333;
+  transform: scale(0, 1);
+  transform-origin: left top;
+  transition: transform .3s;
+}
+
+li a:hover::after {
+  transform: scale(1, 1);
+}
+
+#canvas{
+	float: none;
+	
+}
+
+#side{
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.clearfix:after{
+	canvas:"";
+	clear: both;
+	display: block;
+}
+
+
+#scroll{
+	margin-top: 5%;
+	width: 80%;	
+	height: 60rem;
+	}
+
+	
+nav li{
+	list-style: none;
+	font-family: objektiv-mk1,sans-serif;
+    font-weight: 200;
+    font-style: normal;
+	padding-left: 1.5rem;
+	font-feature-settings: "palt";
+　　-webkit-font-feature-settings: "palt";
+　　-moz-font-feature-settings: "palt";	
+	color: #252525;
+}
+	
+#header{
+	width: 80%;
+	height: auto;
+	margin-top: 4rem;
+	margin-bottom: 2rem;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	text-align: center;
+	align-items: flex-end;
+}
+#header h1 {
+  font-family: objektiv-mk1, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  color: #252525;	
+　　font-feature-settings: "palt";
+　　-webkit-font-feature-settings: "palt";
+　　-moz-font-feature-settings: "palt";	
+ 
+}
+	
+body{
+  /* do nothng */
+}
+
+#canvas {
+  display: flex;
+  flex-direction:row;
+  flex-wrap: wrap;
+  height: auto;
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+	
+
+
+#canvas video {
+ display: block;
+ width: 200px;
+ height: 200px;
+}
+
+#canvas img {
+ display: block;
+ width: 240px;
+ height: 240px;
+}
+	
+.footer-navi{
+	margin-top: 40%;
+	position: static;
+	font-family: 'Raleway', sans-serif;
+	width: 100%;
+	height: 5em;
+	flex: none;
+	font-feature-settings: "palt" 1;
+	letter-spacing: 0,01;
+    text-align: center;
+}
+	.footer-navi h6{
+	font-family: objektiv-mk1, sans-serif;
+    font-weight: 400;
+    font-style: normal;	
+	font-size: 12px;		
+	color: #8AA3D2;
+	
+	}
+	
+
+	
+	
+	} 
+
+
+
+
