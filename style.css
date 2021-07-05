@@ -393,7 +393,7 @@ body{
 	.nav-low{
 		right: 0%;
 		bottom: 5%;
-		width: 200px;
+		width: 250px;
 		display: block;
 		position: fixed;
 		z-index: 20;
@@ -401,6 +401,7 @@ body{
 	.nav-low a{
 		color: #8AA3D2;
 		margin-bottom: 30%;
+        font-size: 23px;
 	}
 } 
 
