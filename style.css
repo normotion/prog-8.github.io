@@ -56,6 +56,7 @@
 #wrap{
 	overflow: hidden;
 	width: 100%;
+	margin-top: 1.5%;
 }
 
 
@@ -242,11 +243,60 @@ text-decoration:none;
 color: #8AA3D2;
 }
 
-.nav-low{
-		display: none;
+
+	.header-row{
+		position: fixed;
+		z-index: 20;
+		left: 3%;
+		top: 2%;
+	}
+	.header-row a{
+		font-weight: 400;
 	}
 	
-li a {
+	.nav-top{
+		display: none;
+	}
+	.nav-low{
+		right: 0%;
+		bottom: 0%;
+		width: 250px;
+		display: block;
+		position: fixed;
+		z-index: 20;
+	}
+	.nav-low a{
+		color: #8AA3D2;
+		margin-bottom: 10%;
+        font-size: 23px;
+		font-weight: 500;
+	}
+header a{
+text-decoration:none;
+color: black;
+position: relative;
+display: flex;	
+flex-direction: row;	
+}
+
+header a::after {
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  content: '';
+  width: 100%;
+  height: 2px;
+  background: #333;
+  transform: scale(0, 1);
+  transform-origin: left top;
+  transition: transform .3s;
+}
+
+header a:hover::after {
+  transform: scale(1, 1);
+}
+	
+li a{
 text-decoration:none;
 color: black;
 position: relative;
@@ -270,6 +320,7 @@ li a::after {
 li a:hover::after {
   transform: scale(1, 1);
 }
+
 
 #canvas{
 	float: none;
@@ -381,29 +432,7 @@ body{
 	
 	} 
 
-@media only screen and (max-width:1116px){
-	.header-row{
-		position: fixed;
-		z-index: 20;
-		left: 3%;
-	}
-	.nav-top{
-		display: none;
-	}
-	.nav-low{
-		right: 0%;
-		bottom: 5%;
-		width: 250px;
-		display: block;
-		position: fixed;
-		z-index: 20;
-	}
-	.nav-low a{
-		color: #8AA3D2;
-		margin-bottom: 30%;
-        font-size: 23px;
-	}
-} 
+@media only screen and (max-width:1116px){} 
 
 
 
