@@ -41,7 +41,7 @@ $(function () {
 				// screenfull.request(document.getElementById('container'));
 			});
 
-			$('#exit').click(function () {
+			$('#exit').dblclick(function () {
 				screenfull.exit().then(function () {
 					console.log('Browser exited fullscreen mode')
 				});
@@ -57,7 +57,7 @@ $(function () {
 				screenfull.request();
 			});
 
-			$('#canvas').click(function () {
+			$('#canvas').dblclick(function () {
 				screenfull.toggle(this);
 			});
 
