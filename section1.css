@@ -49,8 +49,22 @@
 	z-index: -1;
 	height: 600px;
 }
-
-
+.back-img03{
+	width: 320px;
+	position: fixed;
+	z-index: -1;
+	left: -120px;
+	top: -120px;
+}
+.back-img04{
+	width: 80px;
+	position: fixed;
+	z-index: 20;
+	left: 0;
+	bottom: 0;
+	margin-bottom: 20px;
+	margin-left: 3%;
+}
 
 .background-visual{
 	position: relative;
