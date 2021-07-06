@@ -2,11 +2,13 @@
 
 //色の切り替え
 $(function(){
-  $("#img01").click(function(){
-    $("video").attr("src","video/rotation_circle_blue.mp4");
-    $("video").attr("src","video/rotation_circle_green.mp4");
+  $(".rotation_circle").click(function(){
+    $(".rotation_circle").attr("src","video/rotation_circle_blue.mp4");
+	return false;
   });
 });
+
+
 	
 //ドラッグ&ドロップで入れ替え部分の記述	
 function dragstart()
