@@ -1,16 +1,40 @@
 // JavaScript Document
 
+let fileName_blue = [
+  "video/rotation_circle_blue.mp4",
+  "video/Diagonal_border_yellow.mp4",
+  "video/MARNI_red.mp4"
+]
+
+let fileName_yellow = [
+  "video/rotation_circle_blue.mp4",
+  "video/Diagonal_border_yellow.mp4",
+  "video/MARNI_red.mp4"
+]
+
+
 //色の切り替え
 $(function(){
-  $(".rotation_circle").click(function(){
-    $(".rotation_circle").attr("src","video/rotation_circle_blue.mp4");
+  $(".yellow").click(function(){
+    let i = Math.floor(Math.random() * 3);
+    $(this).attr("src",fileName_yellow[i]);
 	return false;
   });
+
+  // $(".blue").click(function(){
+  //   let i = Math.floor(Math.random() * 3);
+  //   $(this).attr("src",fileName_blue[i]);
+  // return false;
+  // });
+
+
+
+
 });
 
 
-	
-//ドラッグ&ドロップで入れ替え部分の記述	
+
+//ドラッグ&ドロップで入れ替え部分の記述
 function dragstart()
 {
 	//ドラッグ元のIDを保存
@@ -32,12 +56,12 @@ function drop(obj)
 	//保存していたsrcをドラッグ元のsrcへ上書き
 	document.getElementById(id).src = buff;
 }
-	
 
-//screen full 
+
+//screen full
 
 $(function () {
-			
+
 
 			$('#canvas').dblclick(function () {
 				screenfull.toggle(this);
@@ -66,7 +90,7 @@ $(function () {
 
 
 //Web font
-	
+
 (function(d) {
     var config = {
       kitId: 'faa8ayi',
@@ -83,5 +107,3 @@ window.dataLayer = window.dataLayer || [];
     gtag('js', new Date());
 
     gtag('config', 'G-Z8R5SRRYK0');
-
-
