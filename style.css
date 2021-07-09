@@ -57,7 +57,9 @@
 	overflow: hidden;
 	width: 100%;
 	margin-top: 1.5%;
-	max-width: 1550px;
+	
+	margin-left: auto;
+    margin-right: auto;
 }
 
 
@@ -384,7 +386,7 @@ body{
   flex-wrap: wrap;
   height: auto;
   width: 80%;
-  max-width: 800px;
+  
   margin-left: auto;
   margin-right: auto;
   
