@@ -385,7 +385,7 @@ body{
   flex-direction:row;
   flex-wrap: wrap;
   height: auto;
-  width: 85vw;
+  width: 80vw;
   
   margin-left: auto;
   margin-right: auto;
@@ -396,8 +396,8 @@ body{
 
 #canvas video {
  display: block;
- width: 25%;
- height: 25%;
+ width: 20%;
+ height: 20%;
  max-width: 200px;
  max-height: 200px;
 }
@@ -434,8 +434,15 @@ body{
 	
 	
 	} 
-
 @media only screen and (max-width:450px){
+	#canvas video {
+ width: 25%;
+ height: 25%;
+
+}
+}
+@media only screen and (max-width:450px){
+
 	.header-row a{
 		font-size: 60%;
 	}
