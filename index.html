@@ -4,12 +4,12 @@
 <link rel="stylesheet" href="section1.css">
 <link rel="stylesheet" href="inview.css">
 <link rel="stylesheet" type="text/css" href="style.css">
-<link rel="stylesheet"  href="balloon.min.css">
-<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.4/css/all.css">
+<link rel="stylesheet"  href="nav-move.css">	
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet">	
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.4/css/all.css">	
 <link rel="stylesheet" href="https://use.typekit.net/kdp6ypy.css">
 <link rel="shortcut icon" href="favicon.ico">
-<link rel="apple-touch-icon" href="apple-touch-icon.png" sizes="180x180">
+<link rel="apple-touch-icon" href="apple-touch-icon.png" sizes="180x180">	
 
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,98 +18,98 @@
 <body>
 
 <div id="wrap">
-
+	
 	<header id="header">
-
-    <h1 class="header-row"><span class=""><a href="index.html">NormotionGraphics</a></span></h1>
+  
+    <h1 class="header-row nav-move"><span class=""><a href="index.html">NormotionGraphics</a></span></h1>
   <!--
   <nav class="nav-top">
 	<ul>
 	  <li><a href="#Explanation">What is?</a></li>
 	  <li><a href="circle.html">Circle</a></li>
 	  <li><a href="border.html">Border</a></li>
-	  <li><a href="other_shapes.html">Other Shapes</a></li>
+	  <li><a href="other_shapes.html">Other Shapes</a></li>	
 	  </ul>
   </nav>
   -->
    </header>
-
-	<nav class="nav-low">
+	
+	<nav class="nav-low nav-move">
 	<ul>
 	  <li><a href="#Explanation"><span class="border-line">What is?</span></a></li>
 	  <li><a href="circle.html"><span class="border-line">Circle</span></a></li>
 	  <li><a href="border.html"><span class="border-line">Border</span></a></li>
-	  <li><a href="other_shapes.html"><span class="border-line">Other Shapes</span></a></li>
+	  <li><a href="other_shapes.html"><span class="border-line">Other Shapes</span></a></li>	
 	  </ul>
   </nav>
-
-	<div class="button">
+	
+	<div class="button nav-move">
 	<svg class="back-img04" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 95.83 51"><defs><style></style></defs><g><g><path class="cls-1" d="M25,4.31,2,44.21a3.44,3.44,0,0,0,3,5.17H51a3.45,3.45,0,0,0,3-5.17L31,4.31A3.44,3.44,0,0,0,25,4.31Z"/><rect class="cls-2 green-box" x="23.33" y="2.5" width="47" height="47" rx="9.25"/><circle class="cls-3 red-circle" cx="70.33" cy="25.5" r="24"/></g></g></svg>
 	</div>
-
+	
 	<div id="canvas">
-
-
-    <video src="video/rotation_circle.mp4" id="img01" class="black" draggable="true" ondragstart="dragstart();" ondragover="dragover();" ondrop="drop(this);" muted loop autoplay></video>
-	<video src="video/Diagonal_border_yellow.mp4" id="img02" class="yellow" draggable="true" ondragstart="dragstart();" ondragover="dragover();" ondrop="drop(this);" style="transform:scale(1,-1)" muted loop autoplay></video>
-	<video src="video/MARNI_red.mp4" id="img03" draggable="true" ondragstart="dragstart();" ondragover="dragover();" ondrop="drop(this);" muted loop autoplay></video>
-	<video src="video/triangle_3_yellow.mp4" id="img04" class="yellow"  draggable="true" ondragstart="dragstart();" ondragover="dragover();" ondrop="drop(this);"  style="transform:rotate(90deg)" muted loop autoplay></video>
-
-
-	<video src="video/MARNI_blue.mp4" id="img05" draggable="true" ondragstart="dragstart();" ondragover="dragover();" ondrop="drop(this);" style="transform:scale(1,-1)" muted loop autoplay></video>
-	<video src="video/triangle_3.mp4" id="img06" draggable="true" ondragstart="dragstart();" ondragover="dragover();" ondrop="drop(this);" muted loop autoplay></video>
+	
+	
+    <video src="video/rotation_circle.mp4" id="img01" class="rotation_circle" draggable="true" ondragstart="dragstart();" ondragover="dragover();" ondrop="drop(this);" muted loop autoplay></video>
+	<video src="video/Diagonal_border_yellow.mp4" id="img02" draggable="true" ondragstart="dragstart();" ondragover="dragover();" ondrop="drop(this);" style="transform:scale(1,-1)" muted loop autoplay></video>
+	<video src="video/MARNI_red.mp4" id="img03" draggable="true" ondragstart="dragstart();" ondragover="dragover();" ondrop="drop(this);" muted loop autoplay></video>  
+	<video src="video/triangle_3_yellow.mp4" id="img04" draggable="true" ondragstart="dragstart();" ondragover="dragover();" ondrop="drop(this);"  style="transform:rotate(90deg)" muted loop autoplay></video>
+	
+	
+	<video src="video/MARNI_blue.mp4" id="img05" draggable="true" ondragstart="dragstart();" ondragover="dragover();" ondrop="drop(this);" style="transform:scale(1,-1)" muted loop autoplay></video>  
+	<video src="video/triangle_3.mp4" id="img06" draggable="true" ondragstart="dragstart();" ondragover="dragover();" ondrop="drop(this);" muted loop autoplay></video>  
 	<!--<span aria-label="Clickするとフルスクリーンに切り替わります。※safari推奨" data-balloon-length="medium" data-balloon-pos="up">-->
-		<video src="video/rotation_circle_green.mp4" id="img07" draggable="true" ondragstart="dragstart();" ondragover="dragover();" ondrop="drop(this);" muted loop autoplay></video>
+		<video src="video/rotation_circle_green.mp4" id="img07" draggable="true" ondragstart="dragstart();" ondragover="dragover();" ondrop="drop(this);" muted loop autoplay></video> 
 	<!--</span>-->
-	<video src="video/Diagonal_border.mp4" id="img08" draggable="true" ondragstart="dragstart();" ondragover="dragover();" ondrop="drop(this);" muted loop autoplay></video>
-
-
-	<video src="video/Diagonal_border_green.mp4" id="img09" draggable="true" ondragstart="dragstart();" ondragover="dragover();" ondrop="drop(this);" style="transform:rotate(-90deg)" muted loop autoplay></video>
+	<video src="video/Diagonal_border.mp4" id="img08" draggable="true" ondragstart="dragstart();" ondragover="dragover();" ondrop="drop(this);" muted loop autoplay></video>   
+	
+	
+	<video src="video/Diagonal_border_green.mp4" id="img09" draggable="true" ondragstart="dragstart();" ondragover="dragover();" ondrop="drop(this);" style="transform:rotate(-90deg)" muted loop autoplay></video> 
 	<!--<span aria-label="Drag&dropで自由に映像を組み替える事が出来ます。" data-balloon-length="medium" data-balloon-pos="up">-->
-	    <video src="video/MARNI.mp4" id="img10" draggable="true" ondragstart="dragstart();" ondragover="dragover();" ondrop="drop(this);" muted loop autoplay></video>
+	    <video src="video/MARNI.mp4" id="img10" draggable="true" ondragstart="dragstart();" ondragover="dragover();" ondrop="drop(this);" muted loop autoplay></video> 
 	<!--</span>	-->
 	<video src="video/triangle_3_red.mp4" id="img12" draggable="true" ondragstart="dragstart();" ondragover="dragover();" ondrop="drop(this);" muted loop autoplay></video>
-	<video src="video/ball-size-blue.mp4" id="img13" draggable="true" ondragstart="dragstart();" ondragover="dragover();" ondrop="drop(this);"  style="transform:rotate(90deg)" muted loop autoplay></video>
-
-	<video src="video/triangle_3.mp4" id="img14" draggable="true" ondragstart="dragstart();" ondragover="dragover();" ondrop="drop(this);" style="transform:rotate(-90deg)" muted loop autoplay></video>
-	<video src="video/rotation_circle_blue.mp4" id="img15" draggable="true" ondragstart="dragstart();" ondragover="dragover();" ondrop="drop(this);" muted loop autoplay></video>
-	<video src="video/Diagonal_border_yellow.mp4" id="img16"  class="yellow" draggable="true" ondragstart="dragstart();" ondragover="dragover();" ondrop="drop(this);" muted loop autoplay></video>
-	<video src="video/triangle4.mp4" id="img17" draggable="true" ondragstart="dragstart();" ondragover="dragover();" ondrop="drop(this);"  style="transform:rotate(90deg)" muted loop autoplay></video>
+	<video src="video/ball-size-blue.mp4" id="img13" draggable="true" ondragstart="dragstart();" ondragover="dragover();" ondrop="drop(this);"  style="transform:rotate(90deg)" muted loop autoplay></video> 
+		
+	<video src="video/triangle_3.mp4" id="img14" draggable="true" ondragstart="dragstart();" ondragover="dragover();" ondrop="drop(this);" style="transform:rotate(-90deg)" muted loop autoplay></video> 
+	<video src="video/rotation_circle_blue.mp4" id="img15" draggable="true" ondragstart="dragstart();" ondragover="dragover();" ondrop="drop(this);" muted loop autoplay></video> 
+	<video src="video/Diagonal_border_yellow.mp4" id="img16" draggable="true" ondragstart="dragstart();" ondragover="dragover();" ondrop="drop(this);" muted loop autoplay></video>
+	<video src="video/triangle4.mp4" id="img17" draggable="true" ondragstart="dragstart();" ondragover="dragover();" ondrop="drop(this);"  style="transform:rotate(90deg)" muted loop autoplay></video> 
 	<!--<div id="full_screen_button">
 	<p>Full screen</p>-->
 	</div>
 	<!--
 	<div class="background-visual">
 	<p class="text01 luxy" data-speed-y="5" data-offset="0"><span>Now,let's rearrecge<br> it into the shape you want !</span></p>
-
+	
 	<img class="main-img" src="img/アートワーク 6.png" alt="" width="100%">
 	</div>
 -->
-
+	
 	<div id="scroll" class="background-visual">
 
-
+	
 	<img class="scroll-bar" src="img/scroll.svg" alt="">
-
+	
 	<img class="circle logo" src="img/circle.svg" alt="">
 
 	</div>
 
 	<div id="Explanation" class="background-visual">
-
+    
 	<div id="whatis-title" class="txtBox inview_re fadeIn_left">
-
-
-
+		
+		
+		
 	<img class="whatis" src="img/whatis.svg" alt="">
 	<p><span class="border-line">It is an item to explain<br>
 		the outline of normotion</span></p>
-	</div>
-
-
+	</div>	
+	  
+	
 	<img src="img/Abstract_0020_21.png" alt="" width="100%" class="back-img imgBox inview_re fadeIn_left_slow">
-
-	<div class="txtBox inview_re fadeIn_right text02">
+	
+	<div class="txtBox inview_re fadeIn_right text02">	
 	  <p class="delay01 left_text">Normotion Graphicsは</p>
       <p class="delay02 left_text">WEBブラウザ上で表現できるマルチ映像です</p>
       <p class="delay03 left_text">ドラッグ&amp;ドロップで自由に映像を組み替えたり</p>
@@ -128,11 +128,11 @@ values="M314.5,156.74c0,37-30,58.5-55,84-28.74,29.36-55.59,60-102,60-42.65,0-67.
         M314.5,156.74c0,37-30,58.5-55,84-28.74,29.36-55.59,60-102,60-42.65,0-67.7-6.68-96-32-29.22-26.15-61-71.59-61-112,0-42.14,28.54-63.66,60-90,27.91-23.36,72-70,114-66,43.16,4.11,72.54,12,101,37S314.5,117,314.5,156.74Z" />
 </path>
 </svg>
-	</div>
+	</div>	
 
 	<!--
 	<div class="imgBox inview fadeIn_right">
-
+		
 	    <p>
 			<small>
 			<br>
@@ -140,21 +140,21 @@ values="M314.5,156.74c0,37-30,58.5-55,84-28.74,29.36-55.59,60-102,60-42.65,0-67.
 			正しく作動しない可能性があります。</span>
 			</small>
 		</p>
-
+		
 	</div>
 	-->
-
+    
   </div>
-
+	
 	<footer class="footer-navi">
 	 <h6>Copyright
 	    <span>©︎</span>
 	      NormotionGraphics.All Rights Reserved.
 	     </h6>
 	</footer>
-
+	
 </div>
-
+	
 	<script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
     <script type="text/javascript" src="js/jquery.inview.min.js"></script>
 	<script src="js/luxy.js" charset="utf-8"></script>
@@ -162,10 +162,10 @@ values="M314.5,156.74c0,37-30,58.5-55,84-28.74,29.36-55.59,60-102,60-42.65,0-67.
     luxy.init();
     </script>
 	<script type="text/javascript" src="js/jquery.inview.min.js"></script>
-　  <script type="text/javascript" src="js/smooth_scroll.js"></script>
+　  <script type="text/javascript" src="js/smooth_scroll.js"></script>	 	
     <script type="text/javascript" src="js/screenfull.js"></script>
-    <script type="text/javascript" src="js/topback-button.js"></script>
-    <script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript" src="js/topback-button.js"></script>	
+    <script type="text/javascript" src="js/script.js"></script> 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-Z8R5SRRYK0"></script>
 	<!--回転-->

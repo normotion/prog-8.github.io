@@ -1,0 +1,6 @@
+@charset "UTF-8";
+/* CSS Document */
+.nav-move{transition: 1s;}
+.nav-low.hide{transform:translateX(100%);}
+.header-row.hide{transform: translateY(-140%);}
+.button.hide{transform: translateX(-100%);}
