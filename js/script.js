@@ -24,6 +24,7 @@ $(function(){
      $(this).attr("src",fileName_blue[i]);
    return false;
    });
+	
 
 //ナビ非表示
 var startPos = 0,winScrollTop = 0;
@@ -116,3 +117,4 @@ window.dataLayer = window.dataLayer || [];
     gtag('config', 'G-Z8R5SRRYK0');
 
 
+});
