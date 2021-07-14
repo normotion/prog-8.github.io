@@ -1,5 +1,30 @@
 // JavaScript Document
 
+//色の切り替え
+let fileName_yellow = [
+  "video/rotation_circle_blue.mp4",
+  "video/Diagonal_border_yellow.mp4",
+  "video/MARNI_red.mp4"
+]
+let fileName_blue = [
+  "video/rotation_circle_blue.mp4",
+  "video/Diagonal_border_yellow.mp4",
+  "video/MARNI_red.mp4"
+]
+
+$(function(){
+  $(".yellow").click(function(){
+    let i = Math.floor(Math.random() * 3);
+    $(this).attr("src",fileName_yellow[i]);
+	return false;
+  });
+
+   $(".blue").click(function(){
+     let i = Math.floor(Math.random() * 3);
+     $(this).attr("src",fileName_blue[i]);
+   return false;
+   });
+
 //ナビ非表示
 var startPos = 0,winScrollTop = 0;
 $(window).on('scroll',function(){
@@ -12,13 +37,7 @@ $(window).on('scroll',function(){
     startPos = winScrollTop;
 });
 
-//色の切り替え
-$(function(){
-  $(".rotation_circle").click(function(){
-    $(".rotation_circle").attr("src","video/rotation_circle_blue.mp4");
-	return false;
-  });
-});
+
 
 
 	
