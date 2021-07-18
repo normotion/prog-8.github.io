@@ -257,6 +257,7 @@ color: #8AA3D2;
 		font-weight: 400;
 	}
 	
+	
 	.nav-top{
 		display: none;
 	}
@@ -267,7 +268,9 @@ color: #8AA3D2;
 		display: block;
 		position: fixed;
 		z-index: 20;
+		
 	}
+
 	.nav-low a{
 		color: #8AA3D2;
 		margin-bottom: 10%;
@@ -384,7 +387,7 @@ body{
   display: flex;
   flex-direction:row;
   flex-wrap: wrap;
-  height: auto;
+  /*height: auto;*/
   width: 80vw;
   
   margin-left: auto;
@@ -397,9 +400,9 @@ body{
 #canvas video {
  display: block;
  width: 20%;
- height: 20%;
- max-width: 200px;
- max-height: 200px;
+ /*height: 20%;*/
+ /*max-width: 200px;
+ max-height: 200px;*/
 }
 
 #canvas img {
@@ -434,6 +437,10 @@ body{
 	
 	
 	} 
+@media only screen and (max-width:1426px){
+	/*mac screen*/
+	#canvas{max-width: 1000px;}
+}
 @media only screen and (max-width:850px){
 	#canvas video {
  width: 25%;
