@@ -439,7 +439,7 @@ body{
 	} 
 @media only screen and (max-width:1426px){
 	/*mac screen*/
-	#canvas{max-width: 1000px;}
+	#canvas{max-width: 1300px;}
 }
 @media only screen and (max-width:850px){
 	#canvas video {
