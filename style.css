@@ -201,6 +201,7 @@ nav ul li:hover{
 	text-align: right;
 	color: #8AA3D2;
 	width: 100%;
+	
 }
 
 	
@@ -389,7 +390,7 @@ body{
   flex-wrap: wrap;
   /*height: auto;*/
   width: 80vw;
-  
+  max-width: 1400px;
   margin-left: auto;
   margin-right: auto;
   
