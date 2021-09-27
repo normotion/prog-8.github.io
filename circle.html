@@ -2,39 +2,19 @@
 <html>
 
 <head>
-  <script src="sample.js"></script>
-  <meta charset="utf-8">
-  <link rel="stylesheet" type="text/css" href="style.css">
-　<link rel="stylesheet"  href="balloon.min.css">	
-  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet">	
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.4/css/all.css">	
-  <link rel="stylesheet" href="https://use.typekit.net/kdp6ypy.css">
+<link rel="stylesheet" href="section1.css">
+<link rel="stylesheet" href="inview.css">
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet"  href="nav-move.css">	
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet">	
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.4/css/all.css">	
+<link rel="stylesheet" href="https://use.typekit.net/kdp6ypy.css">
+<link rel="shortcut icon" href="favicon.ico">
+<link rel="apple-touch-icon" href="apple-touch-icon.png" sizes="180x180">	
 
-  <link rel="shortcut icon" href="favicon.ico">
-  <link rel="apple-touch-icon" href="apple-touch-icon.png" sizes="180x180">	
-	
-  <script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
-　<!--
-  <script type="text/javascript" src="js/cursor.js"></script>
-  <script type="text/javascript" src="js/stalker.js"></script>
-  <script type="text/javascript" src="js/dragstart.js"></script>	
--->	
-  <script type="text/javascript" src="js/jquery.inview.min.js"></script>
-　<script type="text/javascript" src="js/smooth_scroll.js"></script>	 	
-  <script type="text/javascript" src="js/screenfull.js"></script>
-  <script type="text/javascript" src="js/topback-button.js"></script>	
-  <script type="text/javascript" src="js/script.js"></script>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-Z8R5SRRYK0"></script>
-  
-	
- 
-	
-  <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
-　<meta name="Description" content="NormotionGraphics">
-  <meta name="Keywords" content="NormotionGraphics">
-　<title>Normotion Graphics</title>	
-　
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NormotionGraphics</title>
 </head>	
 
 <body>
@@ -51,12 +31,33 @@
 	
 <div id="wrap">
 	
-<footer class="footer-navi">
-	 <h6>Copyright
-	    <span>©︎</span>
-	      NormotionGraphics.All Rights Reserved.
-	     </h6>
-	</footer>	
+<header id="header">
+  
+    <h1 class="header-row nav-move"><span class=""><a href="index.html">NormotionGraphics</a></span></h1>
+  <!--
+  <nav class="nav-top">
+	<ul>
+	  <li><a href="#Explanation">What is?</a></li>
+	  <li><a href="circle.html">Circle</a></li>
+	  <li><a href="border.html">Border</a></li>
+	  <li><a href="other_shapes.html">Other Shapes</a></li>	
+	  </ul>
+  </nav>
+  -->
+   </header>
+	
+<nav class="nav-low nav-move">
+	<ul>
+	  <li><a href="#Explanation"><span class="border-line">What is?</span></a></li>
+	  <li><a href="circle.html"><span class="border-line">Circle</span></a></li>
+	  <li><a href="border.html"><span class="border-line">Border</span></a></li>
+	  <li><a href="other_shapes.html"><span class="border-line">Other Shapes</span></a></li>	
+	  </ul>
+  </nav>
+	
+	<div class="button nav-move">
+	<svg class="back-img04" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 95.83 51"><defs><style></style></defs><g><g><path class="cls-1" d="M25,4.31,2,44.21a3.44,3.44,0,0,0,3,5.17H51a3.45,3.45,0,0,0,3-5.17L31,4.31A3.44,3.44,0,0,0,25,4.31Z"/><rect class="cls-2 green-box" x="23.33" y="2.5" width="47" height="47" rx="9.25"/><circle class="cls-3 red-circle" cx="70.33" cy="25.5" r="24"/></g></g></svg>
+	</div>
 	
 <div id="canvas">
 	<video src="video/MARNI_red.mp4" id="img01" draggable="true" ondragstart="dragstart();" ondragover="dragover();" ondrop="drop(this);"  muted loop autoplay></video> 
@@ -81,26 +82,37 @@
 	
   </div>	
 	
-<div id="side">
-	
-  <header>
-    <h1><a href="index.html">NormotionGraphics</a></h1>
-  </header>
-	
-  <nav>
-	<ul>
-	  <li><a href="index.html#Explanation">What is?</a></li>
-	  <li><a href="circle.html">Circle</a></li>
-	  <li><a href="border.html">Border</a></li>
-	  <li><a href="other_shapes.html">Other Shapes</a></li>	
-	  </ul>
-  </nav>	
-		
-  
-</div>	
+<footer class="footer-navi">
+	 <h6>Copyright
+	    <span>©︎</span>
+	      NormotionGraphics.All Rights Reserved.
+	     </h6>
+	</footer>	
 </div>	
 	
-	
+<script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
+    <script type="text/javascript" src="js/jquery.inview.min.js"></script>
+	<script type="text/javascript" src="js/drag.js"></script>
+	<script type="text/javascript" src="js/jquery.inview.min.js"></script>
+　  <script type="text/javascript" src="js/smooth_scroll.js"></script>	 	
+    <script type="text/javascript" src="js/screenfull.js"></script>
+    <script type="text/javascript" src="js/topback-button.js"></script>	
+    <script type="text/javascript" src="js/script.js"></script> 
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-Z8R5SRRYK0"></script>
+	<!--回転-->
+	<script>
+$(function() {
+ var rotate = function(logo, angle) {
+  logo.css({
+  "transform" : "rotate("+angle+"deg)"
+  });
+ }
+ $(window).scroll(function(){
+  rotate($(".logo"), $(window).scrollTop()*1.0);
+ })
+});
+</script>	
 
 </body>
 	

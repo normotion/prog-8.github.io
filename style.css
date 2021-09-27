@@ -388,7 +388,7 @@ body{
   display: flex;
   flex-direction:row;
   flex-wrap: wrap;
-  /*height: auto;*/
+  height: auto;
   width: 80vw;
   max-width: 1400px;
   margin-left: auto;
