@@ -1,27 +1,49 @@
 // JavaScript Document
 
 //色の切り替え
-let fileName_yellow = [
+let fileName_rotation = [
   "video/rotation_circle_blue.mp4",
-  "video/Diagonal_border_yellow.mp4",
-  "video/MARNI_red.mp4"
+  "video/rotation_circle_green.mp4",
+  "video/rotation_circle.mp4"
 ]
-let fileName_blue = [
-  "video/rotation_circle_blue.mp4",
+let fileName_border = [
+  "video/Diagonal_border_green.mp4",
   "video/Diagonal_border_yellow.mp4",
-  "video/MARNI_red.mp4"
+  "video/Diagonal_border.mp4"
+]
+let fileName_marni = [
+  "video/MARNI_blue.mp4",
+  "video/MARNI_red.mp4",
+  "video/MARNI.mp4"
+]
+let fileName_triangle = [
+  "video/triangle_3_red.mp4",
+  "video/triangle_3_yellow.mp4",
+  "video/triangle_3.mp4"
 ]
 
 $(function(){
-  $(".yellow").click(function(){
+  $(".rotation").click(function(){
     let i = Math.floor(Math.random() * 3);
-    $(this).attr("src",fileName_yellow[i]);
+    $(this).attr("src",fileName_rotation[i]);
 	return false;
   });
 
-   $(".blue").click(function(){
+   $(".border").click(function(){
      let i = Math.floor(Math.random() * 3);
-     $(this).attr("src",fileName_blue[i]);
+     $(this).attr("src",fileName_border[i]);
+   return false;
+   });
+	
+  $(".marni").click(function(){
+     let i = Math.floor(Math.random() * 3);
+     $(this).attr("src",fileName_marni[i]);
+   return false;
+   });
+	
+  $(".triangle").click(function(){
+     let i = Math.floor(Math.random() * 3);
+     $(this).attr("src",fileName_triangle[i]);
    return false;
    });
 	
