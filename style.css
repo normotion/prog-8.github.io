@@ -400,8 +400,9 @@ body{
 
 #canvas video {
  display: block;
- width: 20%;
- /*height: 20%;*/
+ width: 16%;
+
+ /*height: auto;*/
  /*max-width: 200px;
  max-height: 200px;*/
 }
@@ -441,6 +442,13 @@ body{
 @media only screen and (max-width:1426px){
 	/*mac screen*/
 	#canvas{max-width: 1300px;}
+}
+@media only screen and (max-width:1250px){
+	#canvas video {
+ width: 20%;
+ height: 20%;
+
+}
 }
 @media only screen and (max-width:850px){
 	#canvas video {
