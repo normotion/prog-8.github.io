@@ -1,5 +1,27 @@
 // JavaScript Document
 
+//全ての映像
+let fileName = [
+  "video/rotation_circle_blue.mp4",
+  "video/rotation_circle_green.mp4",
+  "video/rotation_circle.mp4",	
+	
+  "video/Diagonal_border_green.mp4",
+  "video/Diagonal_border_yellow.mp4",
+  "video/Diagonal_border.mp4",
+	
+  "video/MARNI_blue.mp4",
+  "video/MARNI_red.mp4",
+  "video/MARNI.mp4",
+	
+  "video/triangle_3_red.mp4",
+  "video/triangle_3_yellow.mp4",
+  "video/triangle_3.mp4",
+  "video/white.mp4"	
+]
+
+
+
 //色の切り替え
 let fileName_rotation = [
   "video/rotation_circle_blue.mp4",
