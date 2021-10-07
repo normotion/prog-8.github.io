@@ -20,6 +20,17 @@ let fileName = [
   "video/white.mp4"	
 ]
 
+//ランダム
+function shuffleContent(container) {
+var content = container.find("> *");
+var total = content.length;
+content.each(function() {
+content.eq(Math.floor(Math.random() * total)).prependTo(container);
+});
+}
+$(function() {
+shuffleContent($("#canvas"));
+});
 
 
 //色の切り替え
