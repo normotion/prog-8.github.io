@@ -44,12 +44,26 @@ $(function(){
  
 	//CSSメソッド
 	
- //$("").on('click', function() {
-    //$( '#canvas' ).css( {
-       //'background-color': 'red',
-       //'font-size': '18px' 
-   // });
-//  });   
+ $(".change4").on('click', function() {
+    $( '#canvas video' ).css( {
+       'width': '25%',
+    });
+  }); 
+	
+$(".change5").on('click', function() {
+    $( '#canvas video' ).css( {
+       'width': '20%',
+    });
+  }); 
+	
+$(".change6").on('click', function() {
+    $( '#canvas video' ).css( {
+       'width': '16%',
+    });
+  }); 
+	
+	
+ //並べ替え
     
   $(".rotation").click(function(){
     let i = Math.floor(Math.random() * 4);
