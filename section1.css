@@ -66,13 +66,13 @@
 	top: -120px;
 }
 .reload{
-	width: 85px;
+	width: 75px;
 	position: fixed;
 	z-index: 20;
 	left: 0;
-	bottom: 0;
+	bottom: 4.5%;
 	margin-bottom: 20px;
-	margin-left: 3%;
+	margin-left: 2.5%;
 	opacity: 0.7;
 }
 

@@ -278,6 +278,11 @@ color: #8AA3D2;
         font-size: 23px;
 		font-weight: 500;
 	}
+	
+	.change{left:2%; bottom: 2.5%; display: flex; z-index: 20; position: fixed;}
+	.change img{width: 16px; margin-left: 20%;}
+	.change img:hover{opacity: 0.4;}
+	
 header a{
 text-decoration:none;
 color: black;
