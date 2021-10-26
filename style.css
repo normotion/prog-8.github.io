@@ -54,12 +54,14 @@
     }
 
 #wrap{
+	
 	overflow: hidden;
 	width: 100%;
-	margin-top: 2.0%;
-	
+    margin-bottom: 0;
+	background: #fff;
 	margin-left: auto;
     margin-right: auto;
+	
 }
 
 
@@ -205,7 +207,6 @@ nav ul li:hover{
 }
 
 	
-	
 #Explanation h1{
 	font-family: objektiv-mk1, sans-serif;
     font-weight: 300;
@@ -336,6 +337,7 @@ li a:hover::after {
 
 #canvas{
 	float: none;
+	margin-top: 5rem;
 	
 }
 
@@ -387,6 +389,7 @@ nav li{
 	
 body{
   /* do nothng */
+	filter: invert(0%);
 }
 
 #canvas {
@@ -422,6 +425,7 @@ body{
 	
 .footer-navi{
 	margin-top: 40%;
+	margin-bottom: 0;
 	position: static;
 	font-family: 'Raleway', sans-serif;
 	width: 100%;
