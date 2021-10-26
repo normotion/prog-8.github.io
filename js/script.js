@@ -37,12 +37,23 @@ let fileName_triangle = [
 
 
 $(function(){
-
+  //リロード時シャッフル
   $(".reload").on('click', function() {
     shuffleContent($("#canvas"));
   });   
  
 	//CSSメソッド
+
+	
+ $(".n-d").on('click', function() {
+    $( 'body' ).css( {
+       'filter': 'invert(100%)'
+    });
+  }); 
+//トグル	
+//$(".n_d").click(function(){
+	//$("body").toggleClass(".night");
+//});
 	
  $(".change4").on('click', function() {
     $( '#canvas video' ).css( {
