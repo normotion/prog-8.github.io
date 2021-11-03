@@ -54,10 +54,10 @@
     }
 
 #wrap{
-	
+	padding-top: 5rem;
 	overflow: hidden;
 	width: 100%;
-    margin-bottom: 0;
+    
 	background: #fff;
 	margin-left: auto;
     margin-right: auto;
@@ -246,10 +246,10 @@ nav ul li:hover{
 
 #header a{
 text-decoration:none;
-color: #8AA3D2;
+/*color: #8AA3D2;*/
 }
 
-
+	.light-blue{color: #8AA3D2;}
 	.header-row{
 		position: fixed;
 		z-index: 20;
@@ -275,7 +275,7 @@ color: #8AA3D2;
 	}
 
 	.nav-low a{
-		color: #8AA3D2;
+		/*color: #8AA3D2;*/
 		margin-bottom: 10%;
         font-size: 23px;
 		font-weight: 500;
@@ -287,7 +287,6 @@ color: #8AA3D2;
 	
 header a{
 text-decoration:none;
-color: black;
 position: relative;
 display: flex;	
 flex-direction: row;	
@@ -312,7 +311,6 @@ header a:hover::after {
 	
 li a{
 text-decoration:none;
-color: black;
 position: relative;
 display: flex;	
 flex-direction: row;	
@@ -338,7 +336,7 @@ li a:hover::after {
 
 #canvas{
 	float: none;
-	margin-top: 5rem;
+	/*margin-top: 5rem;*/
 	
 }
 
@@ -370,8 +368,6 @@ nav li{
 #header{
 	width: 80%;
 	height: auto;
-	margin-top: 4rem;
-	margin-bottom: 2rem;
 	margin-left: auto;
 	margin-right: auto;
 	display: flex;
@@ -390,7 +386,8 @@ nav li{
 	
 body{
   /* do nothng */
-	filter: invert(0%);
+	/*filter: invert(0%);*/
+	
 }
 
 #canvas {

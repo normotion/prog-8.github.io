@@ -1,5 +1,6 @@
 @charset "UTF-8";
 /* CSS Document */
+
 .night{filter: invert(100%);}
 
 .setting{width: 20px; color: #fff;}
@@ -45,7 +46,7 @@
 }
 
 
-.fab.light-blue {
+.fab.blue {
   background:#8AA3D2;
 }
 
