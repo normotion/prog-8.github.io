@@ -2,11 +2,10 @@
 /* CSS Document */
 
 .night{filter: invert(100%);}
-
 .setting{width: 20px; color: #fff;}
 
-.fab img{width: 15px; position: absolute; top:10px; left:12px;}
-.imgcomp img{width: 40px; left: 0; top:0px;}
+.fab svg{width: 15px; position: absolute; top:10px; left:12px;}
+.imgcomp svg{width: 35px; left: 3px; top:2px;}
 
 .fabs {
   bottom: 0;
@@ -28,7 +27,7 @@
   height: 56px;
   border-radius: 50%;
   text-align: center;
-  
+
   background-color: #fff;
   margin: 20px auto 0;
   /*box-shadow: 0px 5px 11px -2px rgba(0, 0, 0, 0.18), 0px 4px 12px -7px rgba(0, 0, 0, 0.15);*/

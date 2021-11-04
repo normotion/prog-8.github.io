@@ -18,7 +18,7 @@
     z-index: 999;
 	transition: width.3s, height.3s, top.3s, left.3s,;
 }*/
-/*	
+/*
 .cursor .hov_{
     top: -12px;    /*大きくなった分の座標調節*/
    /* left: -12px;   /*大きくなった分の座標調節*/
@@ -26,7 +26,7 @@
   /*  height: 32px;  /*カーソルの直径*/
   /*  background: rgba(200,50,50,0.75);
 	}*/
-	
+
 /*マウスストーカー*/
   #stalker {
     pointer-events: none;
@@ -40,9 +40,9 @@
     transition: transform 0.05s, top, 0.2s, left 0.2s, width .5s, height .5s, background-color .5s;
     transition-timing-function: ease-out;
     z-index: 990;
-	  
+
 	opacity: 20%;
-    
+
 }
 #stalker.hov_{
       top: -32px;     /*/大きさに合わせて座標調節*/
@@ -57,11 +57,9 @@
 	padding-top: 5rem;
 	overflow: hidden;
 	width: 100%;
-    
 	background: #fff;
 	margin-left: auto;
-    margin-right: auto;
-	
+  margin-right: auto;
 }
 
 
@@ -98,7 +96,7 @@
 .loaded {
   opacity: 0;
   visibility: hidden;
-} 
+}
 
 /*hover透過*/
 #header h1{
@@ -122,78 +120,28 @@ nav ul li:hover{
 	opacity: 0.3;
 }
 
-
-/*トップに戻るボタン*/
-#page_top{
-  width: 50px;
-  height: 50px;
-  position: fixed;
-  right: 35px;
-  bottom: 30px;
-  background: black;
-  opacity: 0.6;
-  border-radius: 60%;	
-}
-#page_top a{
-  position: relative;
-  display: block;
-  width: 50px;
-  height: 50px;
-  text-decoration: none;	
-}
-#page_top a::before{
-  font-family: 'Font Awesome 5 Free';
-  font-weight: 900;
-  content: '\f106';
-  font-size: 25px;
-  color: #fff;
-  position: absolute;
-  width: 25px;
-  height: 25px;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  margin: auto;
-  text-align: center;
-}
-
-
 @media only screen and (max-width:6000px){
-	
-
-	
-	
 
 *{
 	margin: 0;
 	padding: 0;
 }
-	
-	#full_screen_button{
-		width: 90%;
+
+#full_screen_button{
+    width: 90%;
 		text-align: center;
 		padding-top: 2rem;
 	}
-	
-	#full_screen_button p{
+#full_screen_button p{
 		font-family: 'Raleway', sans-serif;
-        font-size: 28.5px;
-	}
-	
-
-	
-	.contents-margin{
-		width: 100%;
-		height: 4.5rem;
-		margin-bottom: 6em;
+    font-size: 28.5px;
 	}
 
 #Explanation{
 	width: 80%;
 	margin-left: auto;
 	margin-right: auto;
-}	
+}
 .text02{
 	margin-top: 25%;
 	width: 100%;
@@ -204,38 +152,24 @@ nav ul li:hover{
 	text-align: right;
 	color: #8AA3D2;
 	width: 100%;
-	
+
 }
 
-	
-#Explanation h1{
-	font-family: objektiv-mk1, sans-serif;
-    font-weight: 300;
-    font-style: normal;
-	border-bottom:medium #DA5B5D;
-	text-align: left;
-	font-feature-settings: "palt";	
-	width: 100%;
-	font-size: 50px;
-	color: #8AA3D2;
-}
 
-/*#Explanation h1 a{
-	background: linear-gradient(transparent 70%, yellow 50%);
-}*/
+
 
 #Explanation img{
 	margin-bottom: 50px;
 }
 
 #Explanation p{
-    font-family: a-otf-gothic-bbb-pr6n,sans-serif;
-    font-weight: 300;
-    font-style: normal;
+  font-family: a-otf-gothic-bbb-pr6n,sans-serif;
+  font-weight: 300;
+  font-style: normal;
 	margin-left: auto;
 	margin-right: auto;
 	font-size: 20px;
-	font-feature-settings: "palt";	
+	font-feature-settings: "palt";
 	margin-bottom: 3.5rem;
 	color: #8AA3D2;
 	letter-spacing: 0.07em;
@@ -259,8 +193,8 @@ text-decoration:none;
 	.header-row a{
 		font-weight: 400;
 	}
-	
-	
+
+
 	.nav-top{
 		display: none;
 	}
@@ -271,7 +205,7 @@ text-decoration:none;
 		display: block;
 		position: fixed;
 		z-index: 20;
-		
+
 	}
 
 	.nav-low a{
@@ -280,40 +214,18 @@ text-decoration:none;
         font-size: 23px;
 		font-weight: 500;
 	}
-	
+
 	.change{left:2%; bottom: 2.5%; display: flex; z-index: 20; position: fixed;}
 	.change img{width: 16px; margin-left: 20%;}
 	.change img:hover{opacity: 0.4;}
-	
-header a{
-text-decoration:none;
-position: relative;
-display: flex;	
-flex-direction: row;	
-}
 
-header a::after {
-  position: absolute;
-  bottom: -4px;
-  left: 0;
-  content: '';
-  width: 100%;
-  height: 2px;
- /* background: #333;*/
-  transform: scale(0, 1);
-  transform-origin: left top;
-  transition: transform .3s;
-}
 
-header a:hover::after {
-  transform: scale(1, 1);
-}
-	
+
 li a{
 text-decoration:none;
 position: relative;
-display: flex;	
-flex-direction: row;	
+display: flex;
+flex-direction: row;
 }
 
 li a::after {
@@ -337,7 +249,7 @@ li a:hover::after {
 #canvas{
 	float: none;
 	/*margin-top: 5rem;*/
-	
+
 }
 
 #side{
@@ -352,19 +264,19 @@ li a:hover::after {
 	display: block;
 }
 
-	
+
 nav li{
 	list-style: none;
 	font-family: objektiv-mk1,sans-serif;
-    font-weight: 200;
-    font-style: normal;
+  font-weight: 200;
+  font-style: normal;
 	padding-left: 1.5rem;
 	font-feature-settings: "palt";
 　　-webkit-font-feature-settings: "palt";
-　　-moz-font-feature-settings: "palt";	
-	
+　　-moz-font-feature-settings: "palt";
+
 }
-	
+
 #header{
 	width: 80%;
 	height: auto;
@@ -380,14 +292,14 @@ nav li{
   font-style: normal;
 　　font-feature-settings: "palt";
 　　-webkit-font-feature-settings: "palt";
-　　-moz-font-feature-settings: "palt";	
- 
+　　-moz-font-feature-settings: "palt";
+
 }
-	
+
 body{
   /* do nothng */
 	/*filter: invert(0%);*/
-	
+
 }
 
 #canvas {
@@ -399,9 +311,9 @@ body{
   max-width: 1400px;
   margin-left: auto;
   margin-right: auto;
-  
+
 }
-	
+
 
 
 #canvas video {
@@ -420,10 +332,11 @@ body{
  max-width: 200px;
  max-height: 200px;
 }
-	
+
 .footer-navi{
 	margin-top: 40%;
 	margin-bottom: 0;
+	bottom: 0;
 	position: static;
 	font-family: 'Raleway', sans-serif;
 	width: 100%;
@@ -431,21 +344,21 @@ body{
 	flex: none;
 	font-feature-settings: "palt" 1;
 	letter-spacing: 0,01;
-    text-align: center;
+  text-align: center;
 }
 	.footer-navi h6{
 	font-family: objektiv-mk1, sans-serif;
-    font-weight: 400;
-    font-style: normal;	
-	font-size: 12px;		
+  font-weight: 400;
+  font-style: normal;
+	font-size: 12px;
 	color: #8AA3D2;
-	
-	}
-	
 
-	
-	
-	} 
+	}
+
+
+
+
+	}
 @media only screen and (max-width:1426px){
 	/*mac screen*/
 	#canvas{max-width: 1300px;}
@@ -498,10 +411,7 @@ body{
 	.text02{
 	margin-top: 85%;
 	width: 100%;
-	position: absolute;	
+	position: absolute;
    }
-	
-} 
 
-
-
+}
