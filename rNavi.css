@@ -4,13 +4,14 @@
 .night{filter: invert(100%);}
 .setting{width: 20px; color: #fff;}
 
-.fab svg{width: 15px; position: absolute; top:10px; left:12px;}
-.imgcomp svg{width: 35px; left: 3px; top:2px;}
+.fab svg{width: 12.5px; position: absolute; top:11px; left:12.5px;}
+.imgcomp svg{width: 30px; left: 5px; top:5px;}
 
 .fabs {
   bottom: 0;
   position: fixed;
-  margin: 1em;
+  margin-bottom: 1em;
+  margin-left: 0em;
   left: 0;
   z-index: 9999;
   width:100px;
@@ -23,8 +24,10 @@
 }
 .fab {
   display: block;
-  width: 56px;
-  height: 56px;
+  /*width: 56px;
+  height: 56px;*/
+  width: 42px;
+  height: 42px;
   border-radius: 50%;
   text-align: center;
 

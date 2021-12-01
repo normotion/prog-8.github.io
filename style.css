@@ -1,57 +1,5 @@
 @charset "UTF-8";
 /* CSS Document */
-/*カーソル*/
-/*html,body,a{
-  cursor: none !important;
-}*/
-/*
-.cursor{
-  transform: translate(0,0);
-    pointer-events: none;
-    position: fixed;
-    top: -4px;    /*座標調節（カーソル位置と円の中心を合わせる）*/
-   /* left: -4px;  /* 座標調節（カーソル位置と円の中心を合わせる）*/
-   /* width: 8px;   /*カーソルの直径*/
-   /* height: 8px;  /*カーソルの直径*/
-  /*  background: rgba(0,0,0,0.75);
-    border-radius: 50%;
-    z-index: 999;
-	transition: width.3s, height.3s, top.3s, left.3s,;
-}*/
-/*
-.cursor .hov_{
-    top: -12px;    /*大きくなった分の座標調節*/
-   /* left: -12px;   /*大きくなった分の座標調節*/
-  /*  width: 32px;   /*カーソルの直径*/
-  /*  height: 32px;  /*カーソルの直径*/
-  /*  background: rgba(200,50,50,0.75);
-	}*/
-
-/*マウスストーカー*/
-  #stalker {
-    pointer-events: none;
-    position: fixed;
-    top: -10px;     /*/座標調節（カーソル位置と円の中心を合わせる）*/
-    left: -10px;    /*/座標調節（カーソル位置と円の中心を合わせる）*/
-    width: 20px;   /*/マウスストーカーの直径*/
-    height: 20px;  /*/マウスストーカーの直径*/
-    background:#E3EF5D;
-    border-radius: 50%;
-    transition: transform 0.05s, top, 0.2s, left 0.2s, width .5s, height .5s, background-color .5s;
-    transition-timing-function: ease-out;
-    z-index: 990;
-
-	opacity: 20%;
-
-}
-#stalker.hov_{
-      top: -32px;     /*/大きさに合わせて座標調節*/
-      left: -32px;    /*/大きさに合わせて座標調節*/
-      width: 64px;
-      height: 64px;
-      transition: .5s;
-      background: rgba(255, 0, 0, 0.4);
-    }
 
 #wrap{
 	padding-top: 5rem;
@@ -63,17 +11,7 @@
 }
 
 
-/*読み込み画面*/
-/*loading {
-  width: 100%;
-  height: 100%;
-  transition: all 1s;
-  background-color: white;
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 9999;
-}*/
+
 .spinner {
   width: 50px;
   height: 50px;
@@ -127,15 +65,6 @@ nav ul li:hover{
 	padding: 0;
 }
 
-#full_screen_button{
-    width: 90%;
-		text-align: center;
-		padding-top: 2rem;
-	}
-#full_screen_button p{
-		font-family: 'Raleway', sans-serif;
-    font-size: 28.5px;
-	}
 
 #Explanation{
 	width: 80%;
@@ -189,6 +118,7 @@ text-decoration:none;
 		z-index: 20;
 		left: 3%;
 		top: 2%;
+		font-size: 25px;
 	}
 	.header-row a{
 		font-weight: 400;
@@ -201,7 +131,7 @@ text-decoration:none;
 	.nav-low{
 		right: 0%;
 		bottom: 0%;
-		width: 250px;
+		width: 230px;
 		display: block;
 		position: fixed;
 		z-index: 20;
@@ -210,8 +140,8 @@ text-decoration:none;
 
 	.nav-low a{
 		/*color: #8AA3D2;*/
-		margin-bottom: 10%;
-        font-size: 23px;
+		margin-bottom: 17%;
+        font-size: 20px;
 		font-weight: 500;
 	}
 
