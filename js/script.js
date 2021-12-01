@@ -13,26 +13,22 @@ function shuffleContent(container) {
 let fileName_rotation = [
   "video/rotation_circle_blue.mp4",
   "video/rotation_circle_green.mp4",
-  "video/rotation_circle.mp4",
-  "video/white.mp4"
+  "video/rotation_circle.mp4"
 ]
 let fileName_border = [
   "video/Diagonal_border_green.mp4",
   "video/Diagonal_border_yellow.mp4",
-  "video/Diagonal_border.mp4",
-  "video/white.mp4"
+  "video/Diagonal_border.mp4"
 ]
 let fileName_marni = [
   "video/MARNI_blue.mp4",
   "video/MARNI_red.mp4",
-  "video/MARNI.mp4",
-  "video/white.mp4"
+  "video/MARNI.mp4"
 ]
 let fileName_triangle = [
   "video/triangle_3_red.mp4",
   "video/triangle_3_yellow.mp4",
-  "video/triangle_3.mp4",
-  "video/white.mp4"
+  "video/triangle_3.mp4"
 ]
 
 
